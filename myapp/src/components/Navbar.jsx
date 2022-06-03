@@ -79,19 +79,19 @@ const Navbar = () => {
        <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
          <ul>
            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-105px] hover:ml-[-10px] duration-400 bg-blue-600' >
-             <a className='flex justify-between items-center w-full text-gray-300' href='/'>LinkedIn <FaLinkedin size={30} />
+             <a className='flex justify-between items-center w-full text-gray-300' href='https://linkedin.com/in/apurvadivakar'>LinkedIn <FaLinkedin size={30} />
              </a>
            </li>
            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-105px] hover:ml-[-10px] duration-400 bg-[#333333]' >
-             <a className='flex justify-between items-center w-full text-gray-300' href='/'>Github <FaGithub size={30} />
+             <a className='flex justify-between items-center w-full text-gray-300' href='https://github.com/APURVA-DIVAKAR'>Github <FaGithub size={30} />
              </a>
            </li>
            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-105px] hover:ml-[-10px] duration-400 bg-[#6fc2b0]' >
-             <a className='flex justify-between items-center w-full text-gray-300' href='/'>Email <HiOutlineMail size={30} />
+             <a className='flex justify-between items-center w-full text-gray-300' href='mailto:apurvadiwaker@gmail.com'>Email <HiOutlineMail size={30} />
              </a>
            </li>
            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-105px] hover:ml-[-10px] duration-400 bg-[#565f69]' >
-             <a className='flex justify-between items-center w-full text-gray-300' href='/'>Resume <BsFillPersonLinesFill size={30} />
+             <a className='flex justify-between items-center w-full text-gray-300' href='https://docs.google.com/document/d/1XV9wU-ML2HYv998wq92_HKVtvXO_TfAc-0ef4c3unxM/edit?usp=sharing'>Resume <BsFillPersonLinesFill size={30} />
              </a>
            </li>
            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-105px] hover:ml-[-10px] duration-400 bg-[#207fec]' >
