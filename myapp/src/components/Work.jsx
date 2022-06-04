@@ -17,25 +17,28 @@ const Work = () => {
            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
               {/* Hover-Effect */}
               <div className='opacity-0 group-hover:opacity-100'>
-                  <span className='text-2xl font-bold text-white tracking-wider'>
+                  <span className='text-2xl font-bold text-white tracking-wider pl-2'>
                    DHTML
                   </span>
                   <div className='pt-8 text-center'>
                      <a href="https://harmonious-florentine-0b7b40.netlify.app/">
-                         <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>DEMO</button>
+                         <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg '>DEMO</button>
                      </a>
                      <a href="https://github.com/bigyanKumar/vedix.com">
                          <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>CODE</button>
                      </a>
                   </div>
               </div>
+              <div className='opacity-0 group-hover:opacity-100 text-center'>
+                <p>A Clone of E-Commerce website Vedix.com, which provides solutions for hair and Skin.Build the same design, applied Sign-In/Sign-Up and Filters suggestions according to produts you are viewing.</p>
+              </div>
           </div>
           <div style={{backgroundImage:`url(${Tata1mg})`}}
            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
               {/* Hover-Effect */}
               <div className='opacity-0 group-hover:opacity-100'>
-                  <span className='text-2xl font-bold text-white tracking-wider'>
-                   React JS App
+                  <span className='text-2xl font-bold text-white tracking-wider pl-2'>
+                   React
                   </span>
                   <div className='pt-8 text-center'>
                      <a href="https://relaxed-mousse-6ea758.netlify.app/">
@@ -45,6 +48,9 @@ const Work = () => {
                          <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>CODE</button>
                      </a>
                   </div>
+              </div>
+              <div className='opacity-0 group-hover:opacity-100 text-center '>
+                <p>A Clone of E-Commerce website Tata1mg, which provides all type of Medicine.Build the same design, applied Sign-In/Sign-Up and Filters suggestions according to produts you are viewing & payment methods.</p>
               </div>
           </div>
         </div>
